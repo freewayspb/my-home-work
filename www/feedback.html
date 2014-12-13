@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Feedback Page</title>
+        <link rel="stylesheet" href="css/normalize.css" media="all">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+        <!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="container">
+<!-- HEADER -->
+            <header>
+                <h1 class="logo"><a href="/" title="комплексное обучение web разработке">LOFTSCHOOL</a>
+                <small>комплексное обучение web разработке</small>
+                </h1>
+                <div class="social-wrapper">
+                    <ul class="social">
+                        <li><a href="http://vk.com/id25443" title="Я в контакте" target="_blank"><i class="icon-vk"></i></a></li>
+                        <li><a href="https://twitter.com/freeway_spb" title="Мой twitter" target="_blank"><i class="icon-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/alexey.chyrva" title="Я на facebook" target="_blank"><i class="icon-facebook"></i></a></li>
+                        <li><a href="https://github.com/freewayspb" title="Мой github" target="_blank"><i class="icon-github"></i></a></li>
+                    </ul>
+                </div>
+            </header>
+<!-- MAIN -->
+            <div class="main">
+                <div class="wrapper">
+                    <aside class="left-sidebar left">
+                        <nav>
+                            <ul>
+                                <li><a href="/">Обо мне</a></li>
+                                <li><a href="/mywork.html">Мои работы</a></li>
+                                <li class="active"><a href="/feedback.html">Связаться со мной</a></li>
+                            </ul>
+                        </nav>
+                        <div class="contacts-link" itemscope="" itemtype="http://schema.org/Person">
+                            <h2>Контакты</h2>
+                            <address class="email"><a href="mailto:alexey.chyrva@gmail.com" itemprop="email" title="Написать"><i class="sprite mail"></i>alexey.chyrva</a></address>
+                            <address class="cellphone"><a href="tel:+79219590004" itemprop="telephone" title="Позвонить"><i class="sprite telephone"></i>+79219590004</a></address>
+                            <address class="skypecall"><a href="skype:wild_wolf_spb?chat" itemprop="url" title="Написать или позвонить"><i class="skype sprite"></i>wild_wolf_spb</a></address>
+                        </div>
+                    </aside>
+<!-- RIGHT CONTENT BLOCK -->
+                    <section class="right-sidebar right">
+                        <article class="feedback info-block">
+                                <h1>У вас интересный проект? Напишите мне</h1>
+                                <form action="">
+                                    <label for="name">Имя
+                                        <input type="text" placeholder="Как к Вам обращаться">
+                                    </label>
+
+                                    <label for="email">Email
+                                        <input type="text" placeholder="Ваша электронная почта">
+                                    </label>
+
+                                    <label for="textarea">Сообщение
+                                        <textarea cols="30" rows="10" placeholder="Кратко о вашем проекте"></textarea>
+                                    </label>
+
+                                    <label for="captcha">Введите код, указанный на картинке
+                                        <span class="captcha"></span>
+                                        <input type="text" placeholder="Введите код">
+                                    </label>
+
+                                    <button class="submit">Отправить</button>
+                                    <button class="reset">Очистить</button>
+                                </form>
+                                </article>
+                    </section>
+                </div>
+            </div>
+        </div>
+<!-- FOOTER -->
+        <footer>
+            <p>© 2014, Это мой сайт, пожалуйста, не копируйте и не воруйте его</p>
+        </footer>
+    </body>
+</html>
