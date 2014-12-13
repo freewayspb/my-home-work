@@ -1,7 +1,9 @@
 my-home-work
 ============
 Чырва Алексей Николаевич
+
 Домен: http://chyrva.ru
+
 Исходник - https://github.com/freewayspb/my-home-work
 
 Базовый уровень сложности(+ пара фишек для IE8 и следующих уровней).
