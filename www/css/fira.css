@@ -169,16 +169,6 @@
 }
 
 @font-face {
-    font-family: 'fira_sansitalic';
-    src: url('../fonts/fira/firasans-regularitalic.eot');
-    src: url('../fonts/fira/firasans-regularitalic.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/fira/firasans-regularitalic.woff') format('woff'),
-         url('../fonts/fira/firasans-regularitalic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'fira_sansmedium';
     src: url('../fonts/fira/firasans-medium.eot');
     src: url('../fonts/fira/firasans-medium.eot?#iefix') format('embedded-opentype'),
